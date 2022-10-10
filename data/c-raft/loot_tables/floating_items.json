@@ -1,0 +1,67 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:oak_planks",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Planks\",\"color\":\"dark_gray\"}'},Wood_planks_item:1b}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:calcite",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Plastic\",\"color\":\"white\"}'},Plastic_item:1b}"
+                
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Scrap metal\",\"color\":\"dark_gray\"}'},Scrap_metal_item:1b}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jungle_leaves",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Leaves\",\"color\":\"dark_gray\"}'},Leaves_item:1b}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
