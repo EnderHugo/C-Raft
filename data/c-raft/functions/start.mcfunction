@@ -130,6 +130,7 @@ scoreboard players set @e[tag=Item_spawner] -itemXMax -30
 
 #load objectives into players
 scoreboard players set @a offhandEmpty 4
+scoreboard players set @a Scheduled 0
 
 #clear inventory and give starting items
 clear @a

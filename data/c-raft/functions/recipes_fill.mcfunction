@@ -1,2 +1,3 @@
 data remove storage recipes Items
-data modify storage recipes Items insert 0 value {Slot:0b, id: "minecraft:string", Count: 1b, tag:{display:{Name:'{"text":"Fiber","color":"white"}'}, RecipeItem: 1b}}
+data modify storage recipes Items insert 0 value {Slot:0b, id: "minecraft:string", Count: 1b, tag:{display:{Name:'{"text":"Fiber","color":"white"}'}, RecipeItem: 1b, Fiber: 1b}}
+data modify storage recipes Items insert 0 value {Slot:1b, id: "minecraft:lectern", Count: 1b, tag:{display:{Name:'{"text":"Research Table","color":"gold"}'}, RecipeItem: 1b, Research_Table_Item: 1b}}

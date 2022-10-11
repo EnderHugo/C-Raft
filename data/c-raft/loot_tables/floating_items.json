@@ -23,7 +23,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Plastic\",\"color\":\"white\"}'},Plastic_item:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Plastic\",\"color\":\"dark_gray\"}'},Plastic_item:1b}"
                 
               },
               {
