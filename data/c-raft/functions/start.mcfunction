@@ -1,4 +1,8 @@
 #clear objectives
+scoreboard objectives remove blockPlaced
+
+scoreboard objectives remove Rotation
+
 scoreboard objectives remove offhandEmpty
 
 scoreboard objectives remove openedBarrel
@@ -35,6 +39,8 @@ scoreboard objectives remove Negative1
 scoreboard objectives remove oceanRNG 
 
 #start objectives
+scoreboard objectives add blockPlaced trigger
+
 scoreboard objectives add offhandEmpty trigger
 
 scoreboard objectives add openedBarrel minecraft.custom:minecraft.open_barrel
@@ -44,6 +50,8 @@ scoreboard objectives add recipeMissing trigger
 scoreboard objectives add oceanX dummy 
 scoreboard objectives add oceanY dummy
 scoreboard objectives add oceanZ dummy
+
+scoreboard objectives add Rotation dummy 
 
 scoreboard objectives add itemX dummy 
 scoreboard objectives add itemY dummy
