@@ -82,6 +82,8 @@ scoreboard objectives add oceanRNG dummy
 
 #start storages
 data modify storage recipes dummy set value dummy 
+data modify storage recipebooks dummy set value dummy 
+data modify storage recipeproducts dummy set value dummy 
 function c-raft:recipes_fill
 
 #delete previous item spawner and replace them
