@@ -6,6 +6,9 @@ execute as @a at @s if entity @s[scores={offhandEmpty=0}] if data entity @s Inve
 execute as @a run data modify entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{dropped: 1b}}}] Item set from entity @s Inventory[{Slot:-106b}]
 execute as @a run data modify entity @e[type=minecraft:item,limit=1,nbt={Item:{tag:{dropped: 1b}}}] Tags set value {tag:{dropped: 0b}}
 
+#delete thrown recipe books
+execute as @e[nbt={Item:{tag:{RecipeBook:1b}}}] at @s run kill @s
+
 #remove item in recipe slot
 execute as @a if entity @s[scores={offhandEmpty=0}] run clear @s #c-raft:recipebooks{RecipeBook: 1b}
 execute as @a unless entity @s[scores={offhandEmpty=4}] run item replace entity @s weapon.offhand with light_gray_stained_glass_pane

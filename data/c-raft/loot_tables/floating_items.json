@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Planks\",\"color\":\"dark_gray\"}'},Wood_planks_item:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Planks\",\"color\":\"dark_gray\",\"italic\":false}'},Wood_planks_item:1b}"
               },
               {
                 "function": "minecraft:set_count",
@@ -23,7 +23,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Plastic\",\"color\":\"dark_gray\"}'},Plastic_item:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Plastic\",\"color\":\"dark_gray\",\"italic\":false}'},Plastic_item:1b}"
                 
               },
               {
@@ -38,7 +38,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Scrap metal\",\"color\":\"dark_gray\"}'},Scrap_metal_item:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Scrap metal\",\"color\":\"dark_gray\",\"italic\":false}'},Scrap_metal_item:1b}"
               },
               {
                 "function": "minecraft:set_count",
@@ -52,7 +52,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Leaves\",\"color\":\"dark_gray\"}'},Leaves_item:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Leaves\",\"color\":\"dark_gray\",\"italic\":false}'},Leaves_item:1b}"
               },
               {
                 "function": "minecraft:set_count",

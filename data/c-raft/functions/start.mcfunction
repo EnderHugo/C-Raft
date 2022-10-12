@@ -80,6 +80,12 @@ scoreboard objectives add Negative1 dummy
 
 scoreboard objectives add oceanRNG dummy
 
+#place storage hold barrel at origin
+setblock 0 0 0 barrel
+
+#set all armor stands to blockPlaced 1
+scoreboard players set @e[tag=Creation_Table] blockPlaced 1
+
 #start storages
 data modify storage recipes dummy set value dummy 
 data modify storage recipebooks dummy set value dummy 
@@ -87,11 +93,11 @@ data modify storage recipeproducts dummy set value dummy
 function c-raft:recipes_fill
 
 #delete previous item spawner and replace them
-execute as @e[type=armor_stand,tag=Item_spawner] at @s run kill @s
+kill @e[type=armor_stand,tag=Item_spawner]
 summon armor_stand 30 136 0 {Marker:1b,Invisible:1b,Invulnerable:1b,DisabledSlots:16191,Tags:[Item_spawner],NoGravity:1b}
 
 #delete previous map controller and replace them
-execute as @e[type=armor_stand,tag=Map_controller] at @s run kill @s
+kill @e[type=armor_stand,tag=Map_controller]
 summon armor_stand 0 136 0 {Marker:1b,Invisible:1b,Invulnerable:1b,DisabledSlots:16191,Tags:[Map_controller],NoGravity:1b}
 
 #load objectives into map controller

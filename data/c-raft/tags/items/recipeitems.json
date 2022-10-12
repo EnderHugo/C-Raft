@@ -1,6 +1,7 @@
 {
     "values":[
         "minecraft:string",
-        "minecraft:lectern"
+        "minecraft:lectern",
+        "minecraft:barrier"
     ]
 }
